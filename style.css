@@ -1,0 +1,86 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f5f5f5;
+  color: #333;
+}
+
+header {
+  background: #222;
+  color: #fff;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.sobre, .servicos, .contato {
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.servicos {
+  background: #fff;
+}
+
+.card {
+  background: #eee;
+  padding: 20px;
+  margin: 15px auto;
+  max-width: 300px;
+  border-radius: 10px;
+}
+
+.card span {
+  font-weight: bold;
+  color: #1a73e8;
+}
+
+.btn-whatsapp {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 12px 25px;
+  background-color: #25D366;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+footer {
+  background: #222;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+.formulario {
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 20px;
+}
+
+.formulario input, .formulario textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  resize: vertical;
+}
+
+.formulario button {
+  padding: 12px;
+  background-color: #1a73e8;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.formulario button:hover {
+  background-color: #0f5ad3;
+}
