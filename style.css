@@ -38,7 +38,7 @@ header {
 
 .btn-whatsapp {
   display: inline-block;
-  margin-top: 20px;
+  margin-top: 15px;
   padding: 12px 25px;
   background-color: #25D366;
   color: white;
@@ -83,21 +83,4 @@ footer {
 
 .formulario button:hover {
   background-color: #0f5ad3;
-}
-
-.whatsapp-float {
-  position: fixed;
-  width: 50px;
-  height: 50px;
-  bottom: 20px;
-  right: 20px;
-  background-color: #25D366;
-  color: white;
-  border-radius: 50%;
-  font-size: 28px;
-  text-align: center;
-  line-height: 50px;
-  text-decoration: none;
-  box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
-  z-index: 100;
 }
